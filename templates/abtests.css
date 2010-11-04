@@ -1,0 +1,64 @@
+/* Experiments form */
+
+#AddEditExperiments {
+  width: 614px;
+}
+
+#AddEditExperiments .but_submit{
+	clear:both; 
+	color:#fff;
+	font:18px Arial, Helvetica, sans-serif;
+	padding:3px 10px;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border:0;
+	background:#847b6d url(../../../themes/default/images/dashboard_h_bg_hover.png) repeat-x 0 0;
+	float:right; 
+	margin:12px 0 0 0;
+}
+
+#AddEditExperiments .inp{  
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border:1px solid #d4d4d4;
+	background:#fff url(../../../themes/default/images/inp_bg.png) repeat-x 0 0;
+	padding:3px 10px;
+	color:#255792;
+}
+#AddEditExperiments select.inp{  
+	padding-right:3px;
+	padding-left:7px;
+	margin-right:6px;
+}
+
+.tableFormExperiments { 
+	border-radius:4px!important;
+	-moz-border-radius:4px!important;
+	-webkit-border-radius:4px!important;
+	border-top:1px solid #cdc8bf!important;
+	border-bottom:1px solid #948c7d!important;
+}
+
+.tableFormExperiments tr td.first, .tableFormExperiments tr th.first{ 
+	border-left:0!important;
+}
+
+.tableFormExperiments tr th{ 
+	white-space:nowrap; 
+	padding-top:10px!important;
+	padding-bottom:10px!important;
+}
+.tableFormExperiments tr td, .tableFormExperiments tr th{ 
+	border-bottom:0!important;
+	border-top:1px solid #E7E7E7!important;
+}
+
+.tableFormExperiments tr td span.cellHeader{
+  font-weight: bold;
+}
+
+.experimentInlineHelp {
+	color:#9B9B9B;
+}
